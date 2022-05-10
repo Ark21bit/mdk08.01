@@ -1,0 +1,44 @@
+h1 {
+   text-align: center;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+div {
+  width: 10%;  
+  display: inline-block;
+  margin:auto;
+  padding: 30px;
+  text-align: center;
+  background-color: sandybrown;
+  color: red;
+  border-color: darkblue;
+}
+
+div:hover{
+	background-color: #B22222;
+  color: sandybrown;
+}
+
+.p1:hover{
+	background-color: #B22222;
+  color: sandybrown;
+  font-size: 250%;
+}
+
+.p2{
+	transition: .5s;
+}
+
+.p3{
+	transition: 3s;
+}
+
+.p4{
+	transition-delay: 1s;
+}
+

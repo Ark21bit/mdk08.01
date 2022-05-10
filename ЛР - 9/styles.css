@@ -1,0 +1,94 @@
+header{
+	background-image:url(images/1024px-Mordovia_Arena_stadium.jpg);
+	margin:auto;
+	width:95%;
+	height:50px;
+	
+}
+
+footer{
+	margin:auto;
+	width:95%;
+	height:50px;
+background-color:#877123;	
+}
+
+.left{		
+	display:flex;
+	flex-basis:content;
+	flex-flow: column;
+	max-width:25%;
+	height:50%;
+	background-color:#8ed5d0;
+	align-items: center;
+	text-align: center;
+}
+
+.left p, h3, img{	
+	margin:3%;
+	
+}
+
+.right{	
+	display: -webkit-flex;
+	width:75%;	
+	align-content: space-between;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	gap: 40px
+}
+
+.right2{	
+display: flex;	
+	flex-wrap: wrap;
+	align-items: center;
+    justify-content: center;
+	width:100%;
+	min-height:30%;
+	background-color:#8ed5d0;
+}
+
+.center{	
+	display: -webkit-flex;	
+	flex-wrap: wrap;
+	gap: 20px;
+	justify-content: space-between;
+	width:100%;
+	
+}
+
+.center div{
+	display:flex;
+	background-color:#8ed5d0;
+	flex-basis: 30%;
+	justify-content: center;
+	flex-wrap: wrap;	
+}
+
+main{	
+	display: -webkit-flex;
+	gap:2%;			
+	margin:3% auto ;
+	width:95%;
+	
+}
+
+img{
+    width: 281px;
+}
+
+.center img{
+	width:90%;		
+	height: 50%;
+	object-fit: cover;
+	}
+
+.left img{
+	width:90%;
+		
+}
+
+h1{
+	font-size: 10vw;
+	margin: 0.4em;
+}

@@ -1,0 +1,61 @@
+body{   
+    width: 100%;
+    height: 100%;
+    background: url(underwater-717622_960_720.jpg) no-repeat;
+    background-size: 100%;
+} 
+
+.container1 {    
+    position: absolute;
+	animation: box 3s ease-in-out infinite;
+   }   
+
+   h3 {    
+    position: reletiv;
+	animation: box4 6s ease-in-out infinite;
+   }   
+
+.container2
+{
+	position: absolute;
+    animation: box2 6s ease-in-out infinite;
+}
+
+.container3
+{
+	position: absolute;
+    animation: box3 2s ease-in-out infinite;
+}
+
+.container4
+{
+	position: absolute;
+    animation: box4 5s ease-in-out infinite;
+}
+
+
+@keyframes box {
+ 0% { left: 0px; top: 0px; }
+ 50% { left: 300px; top: 300px; }
+ 100% { left: 0px; top: 0px; }
+}
+
+@keyframes box2 {
+ 0% { left: 500px; top: 100px; }
+ 25% { left: 600px; top: 150px; }
+ 50% { left: 700px; top: 100px; }
+ 75% { left: 600px; top: 50px; }
+ 100% { left: 500px; top: 100px; }
+}
+
+@keyframes box3 {
+ 0% { left: 0px; top: 100px; }
+ 50% { left: 1820px; top: 100px; transform: scale(-1, 1); }
+ 100% { left: 0px; top: 100px; transform: scale(-1, 1);}
+}
+
+@keyframes box4 {
+ 0% { left: 500px; top: 30px; transform: rotate(0deg)}
+ 50% { left: 300px; top: 600px;transform: rotate(360deg) }
+ 100% { left: 500px; top: 30px;transform: rotate(0deg) }
+}
